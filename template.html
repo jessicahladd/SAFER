@@ -11,38 +11,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://jasny.github.io/bootstrap/dist/css/jasny-bootstrap.min.css">
+        <link rel="stylesheet" href="http://jasny.github.io/bootstrap/assets/css/docs.css">
         <link rel="stylesheet" href="css/main.css">
 
         <style>
-          .navbar {
-            margin-bottom: 0px; 
-          }
-          .navbar-nav>li>a.btn {
-            margin-top: 6px;
-            margin-left: 5px;
-            padding-top: 8px;
-            padding-bottom: 8px;
-          }
-          .jumbotron {
-            margin-bottom: 0px;
-          }
-          .jumbotron h1, .jumbotron .h1 {
-            font-size: 38px;
-            margin-bottom: 16px;
-          }
-          .main-sections {
-            text-align: center;
-            margin-top: 60px;
-            margin-bottom: 60px;
-          }
-          footer {
-            background-color: #eee;
-            padding-top: 40px;
-            padding-bottom: 40px;
-          }
-          footer hr {
-            border-color: grey;
-          }
         </style>
 
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
@@ -102,41 +75,75 @@
     </div>
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
+    <div class="header-section">
       <div class="container">
-        <h1>We help students advocate for better sexual assault policies</h1>
         <div class="row">
-          <div class="col-md-9">
-            <p>Students Active For Ending Rape (SAFER) is a non-profit dedicated to...Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper.</p>
-          </div>
-          <div class="col-md-3">
-            <br>
-            <p><a class="btn btn-primary btn-lg" role="button" href="teach_in.html">Request a teach-in</a></p>
+          <div class="col-md-11 col-md-offset-1">
+            <h1>Title of top-line</h1>
+            <p>Description of what it's about</p>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="container">
+    <div class="container bs-docs-container">
       <!-- Example row of columns -->
       <div class="row">
-        <div class="col-md-4 main-sections">
-          <h2>The Basics</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p><br>
-          <p><a class="btn btn-primary" href="basics.html" role="button">Learn more</a></p>
+        <div class="col-md-3">
+          <div class="bs-sidebar hidden-print" role="complementary">
+            <ul class="nav bs-sidenav">
+              
+              <li>
+                <a href="#section_1">Section 1</a>
+                  <ul class="nav">
+                    <li><a href="#subsection_1">Subsection 1</a></li>
+                    <li><a href="#subsection_2">Subsection 2</a></li>
+                    <li><a href="#subsection_3">Subsection 3</a></li>
+                  </ul>
+              </li>
+              <li>
+                  <a href="section_2">Section 2</a>
+                  <ul class="nav">
+                    <li><a href="#subsection_2_1">Other subsection</a></li>
+                  </ul>
+              </li> 
+            </ul>
+          </div>
         </div>
-        <div class="col-md-4 main-sections">
-          <h2>Policy</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p><br>
-          <p><a class="btn btn-primary" href="policy.html" role="button">Learn more</a></p>
-       </div>
-        <div class="col-md-4 main-sections">
-          <h2>Activism</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p><br>
-          <p><a class="btn btn-primary" href="activism.html" role="button">Learn more</a></p>
+        <div class="col-md-9 main-content" role="main">
+            <!-- Navmenu
+            ================================================== -->
+          <div class="bs-docs-section">
+            <div class="page-header">
+              <h2 id="section_1">Section 1</h2>
+            </div>
+            <p>Content....</p>
+            
+            <p>More content...</p>
+
+            <h3 id="subsection_1">Subsection 1</h3>
+
+            <p>Content....</p>
+            
+            <p>More content...</p>
+
+            <h3 id="subsection_2">Subsection 2</h3>
+
+            <p>Content....</p>
+            
+            <p>More content...</p>
+
+            <h3 id="subsection_3">Subsection 3</h3>
+
+            <p>Content....</p>
+            
+            <p>More content...</p>
+
+            <p class="next-section"><a href="">Section 2 >></a>
+
+          </div>
         </div>
       </div>
-
     </div> <!-- /container --> 
     <div>
       <footer>
@@ -190,6 +197,8 @@
 
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <script src="http://jasny.github.io/bootstrap/dist/js/jasny-bootstrap.min.js"></script>
+        <script src="http://jasny.github.io/bootstrap/assets/js/docs.min.js"></script>
 
         <script src="js/main.js"></script>
 
