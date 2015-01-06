@@ -71,6 +71,10 @@ footer hr {
 
 /* @media */
 
+@media screen and (min-width: 992px) {
+	.bs-sidebar.affix {top: 40px;}
+}
+
 @media screen and (min-width: 768px) {
 	.jumbotron {
 		padding: 60px 0;
